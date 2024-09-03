@@ -4,4 +4,4 @@
 
 `cd login-form && npm i && npm start`
 
-### [web version](https://onfire22.github.io/login-form-task/)
+### [web version](https://login-form-task-y1j6.vercel.app/)
