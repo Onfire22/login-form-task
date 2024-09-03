@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/login-form-task/static/css/main.8005aaf4.css",
+    "main.js": "/login-form-task/static/js/main.cf492874.js",
+    "static/media/Roboto-Regular.ttf": "/login-form-task/static/media/Roboto-Regular.27f62b53b93858475a7f.ttf",
+    "static/media/Roboto-Bold.ttf": "/login-form-task/static/media/Roboto-Bold.d50a80138ec4f2fb5e9f.ttf",
+    "static/media/eye-off-svgrepo-com.svg": "/login-form-task/static/media/eye-off-svgrepo-com.d0d8b6d8ba80ac132b474007f606e73e.svg",
+    "static/media/eye-show-svgrepo-com.svg": "/login-form-task/static/media/eye-show-svgrepo-com.a4cbb93c65331f4edb12a7eba32f2a6d.svg",
+    "index.html": "/login-form-task/index.html",
+    "main.8005aaf4.css.map": "/login-form-task/static/css/main.8005aaf4.css.map",
+    "main.cf492874.js.map": "/login-form-task/static/js/main.cf492874.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8005aaf4.css",
+    "static/js/main.cf492874.js"
+  ]
+}
