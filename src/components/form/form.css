@@ -1,0 +1,41 @@
+.form-wrapper {
+  width: 30%;
+  padding: 0.5em;
+  border-radius: 16px;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.08);
+  background: rgb(255, 255, 255);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5em;
+}
+
+.form-title {
+  padding: 0.4em;
+  font-weight: 600;
+}
+
+.form-button {
+  width: 100%;
+  padding: 1em;
+  font-size: 1.2em;
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  background: rgb(81, 38, 137);
+  transition: 0.3s ease-in;
+}
+
+.form-button:hover {
+  background-color: rgb(123, 59, 206);
+  transition: 0.3s ease-in;
+}
+
+.feedback {
+  position: absolute;
+  color: rgb(255, 97, 97);
+  font-size: 0.8em;
+  bottom: -30%;
+}
