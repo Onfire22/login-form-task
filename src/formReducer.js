@@ -1,16 +1,16 @@
 const INITIAL_STATE = {
   values: {
-    name: '',
+    email: '',
     password: '',
   },
   errors: {
-    name: '',
+    email: '',
     password: '',
   },
 };
 
 const ACTIONS = {
-  name: 'CHANGE_NAME',
+  email: 'CHANGE_EMAIL',
   password: 'CHANGE_PASSWORD',
   formReset: 'FORM_RESET',
   setError: 'SET_ERROR',
@@ -23,16 +23,16 @@ const errorsHandler = (payload) => payload.reduce((acc, { path, message }) => {
 
 const formReducer = (state, { type, payload }) => {
   switch (type) {
-    case ACTIONS.name:
+    case ACTIONS.email:
       return {
         ...state,
         values: {
           ...state.values,
-          name: payload
+          email: payload
         },
         errors: {
           ...state.errors,
-          name: '',
+          email: '',
         },
       };
     case ACTIONS.password:

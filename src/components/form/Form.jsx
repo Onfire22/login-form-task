@@ -9,7 +9,7 @@ const Form = () => {
   const nameRef = useRef(null);
 
   const schema = yup.object().shape({
-    name: yup.string().required('Это обязательное поле'),
+    email: yup.string().email('Почта должна быть формата "ex@ex.ru"').required('Это обязательное поле'),
     password: yup.string().required('Это обязательное поле'),
   });
 
@@ -28,7 +28,6 @@ const Form = () => {
         //   },
         //   body: state.values,
         // })
-        console.log(123)
         dispatch({ type: ACTIONS.formReset });
       })
       .catch(error => dispatch({ type: ACTIONS.setError, payload: error}));
@@ -43,13 +42,13 @@ const Form = () => {
       <h1 className="form-title">Войти</h1>
       <Input
         className="input"
-        name={ACTIONS.name}
+        name={ACTIONS.email}
         type="text"
         id="login"
-        placeholder="Ваш ник"
+        placeholder="Ваша почта"
         nameRef={nameRef}
-        value={state.values.name}
-        error={state.errors.name}
+        value={state.values.email}
+        error={state.errors.email}
         handleChange={handleChange}
       />
       <Input
